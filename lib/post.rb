@@ -1,7 +1,7 @@
 class Post
   attr_accessor :tilt, :author
   
-  @@all
+  @@all = []
   
   def initialize*(name)
     @name = name 
@@ -15,4 +15,5 @@ class Post
   def author_name 
     author.name if author 
   end 
+
 end 
