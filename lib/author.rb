@@ -6,4 +6,11 @@ class Author
   def initialize(title)
     @title = title 
     @@all << self 
-  en
+  end 
+  
+  def self.all
+    @@all
+  end 
+  
+  def add_post(title)
+    
