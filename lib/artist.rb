@@ -21,4 +21,5 @@ class Artist
     song.artist = self 
   end 
   
-  def add
+  def songs
+    Song.all do 
