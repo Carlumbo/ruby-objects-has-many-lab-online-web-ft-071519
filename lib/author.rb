@@ -12,13 +12,12 @@ class Author
     @@all
   end 
   
-  def add_post(title)
-    post = title.new 
+  def add_post(post)
     post.author = self 
   end 
   
-  def add_post_by_title(title)
-    post = post.new(title)
+  def add_post_by_title(post)
+    post = post.new(post)
     post.author = self 
   end 
   
